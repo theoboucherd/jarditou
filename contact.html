@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>Jarditou</title>            
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="assets/css/style.css">
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
+</head>
+<body>
+<div><b>Contact</b></div><br>
+<div>* Ces zones sont obligatoires</div><br>
+<fieldset>
+      <legend>Coordonnées</legend>
+      <label for="Votrenom*">Votre nom</label><input type="text" name="Votre nom*" id="Votrenom*" autocomplete="name" required><br>
+      <label for="Votreprénom*">Votre prénom</label><input type="text" name="Votreprénom*" id="Votreprénom*" required><br>
+      <div>Sexe*</div>  <input type="radio" name="couleur" value="féminin">féminin
+      <input type="radio" name="couleur" value="masculin">masculin<br> 
+       <label for="date">Date de naissance*:</label><input type="date" name="ddn" id="date"><br>
+       <label for="Code_postal*">Code postal*</label><input type="text" name="Code_postal*" id="Code_postal*"><br>
+       <label for="Adresse">Adresse</label><input type="text" name="Adresse" id="Adresse"><br>
+       <label for="Ville">Ville</label><input type="text" name="Ville" id="Ville"><br>
+       <label for="Email*">Email*</label><input type="text" name="Email*" id="Email*">
+</fieldset>     
+
+<fieldset>
+      <legend>Votre demande</legend> 
+      <label>Sujet*</label>
+      <select id="Sujet">
+      <option value="" selected>-</option>
+      <option value="Mes commandes">Mes commandes</option>
+      <option value="Question sur un produit">Question sur un produit</option>
+      <option value="Réclamation">Réclamation</option>
+      <option value="Autres">Autres</option>
+      </select><br><br>         
+<div>Votre question*</div>
+<textarea name="Votre question" rows="2" cols="20"></textarea>
+</fieldset>
+
+<input type="radio" name="*J'accepte le traitement informatique de ce formulaire " value="*J'accepte le traitement informatique de ce formulaire">*J'accepte le traitement informatique de ce formulaire
+<form action="http://bienvu.net/script.php" method="get" id="formulaire_contact">
+      </form>
+      <button type="submit" >Envoyer</button>
+      <button type="submit" >Annuler</button>
+<ul>
+<li><a href="#Mentionslégales" title="Mentions" >Mentions</a></li>
+<li><a href="#Horaires" title="Horaires" >Horaires</a></li>
+<li><a href="#Plan" title="Plan" >Plan du site</a></li>
+</ul>
+</body>
+</html>
