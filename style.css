@@ -1,0 +1,25 @@
+ul{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+    
+
+}
+ul li{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: inline;
+}
+header {display: flex; justify-content: center}
+
+
+section {
+
+   line-height: 4em; 
+}
+
+
+
+
