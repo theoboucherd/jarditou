@@ -1,25 +1,27 @@
-ul{
-    background-color: black;
-    color: white;
-    padding: 20px;
-
-    
-
-}
-ul li{
-    background-color: black;
-    color: white;
-    padding: 20px;
-    display: inline;
-}
 header {display: flex; justify-content: center}
-
 
 section {
 
    line-height: 4em; 
 }
 
+p {
+    width: 80000px;
+    margin:  0 auto;
+    font-weight: 60;
+    font-variant-ligatures: normal;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 32px;
+}
+nav*{
+background-color: black;
+color: white;
+display: inline;
+} 
 
-
-
+footer {
+background-color: black;
+color: white;
+display: inline;
+}
