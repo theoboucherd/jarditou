@@ -1,27 +1,30 @@
-header {display: flex; justify-content: center}
-
-section {
-
-   line-height: 4em; 
+h1 {
+position: absolute;
+top: 50px;
+right: 500px;
+font-family:serif;
 }
 
-p {
-    width: 80000px;
-    margin:  0 auto;
-    font-weight: 60;
-    font-variant-ligatures: normal;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    line-height: 32px;
-}
-nav*{
+
+ul {
+display: flex;    
 background-color: black;
-color: white;
-display: inline;
-} 
-
-footer {
-background-color: black;
-color: white;
-display: inline;
 }
+
+li {
+list-style-type: none;
+height: 50px;
+width: 120px;
+color: white;
+}
+
+.Accueil {
+height: 50px;
+width: 60px;
+}
+
+.article {
+
+font: size 1155px;
+}
+
