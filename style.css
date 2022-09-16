@@ -1,30 +1,39 @@
-h1 {
-position: absolute;
-top: 50px;
-right: 500px;
-font-family:serif;
+
+
+#slogan{
+    position : absolute;
+    top : 40px;
+    right : 1000px;
+    font-family : serif;
+    font-size : 36px;
 }
 
-
-ul {
-display: flex;    
-background-color: black;
+nav{
+    background-color : black;
 }
 
-li {
-list-style-type: none;
-height: 50px;
-width: 120px;
-color: white;
+nav li{ /* La fameuse cascade, ou héritage, ou jsp, pour que seuls les li issus de la nav soient traités ainsi, au cas où tu en rajoutes plus tard */
+    display : inline;
+    list-style : none;
 }
 
-.Accueil {
-height: 50px;
-width: 60px;
+a{
+    color: white;
 }
 
-.article {
+#global{
+    display : flex;
+    max-width : 100%;
+}
 
-font: size 1155px;
+#leftPanel{
+    position : relative;
+    width : 70%;
+}
+
+#rightPanel{
+    position : relative;
+    width : 30%;
+    background-color : lightgrey;
 }
 

@@ -1,0 +1,20 @@
+table {
+background-color: beige;    
+border: 100%;0
+}
+
+body {
+font-family: "font-1", serif;
+background: url(./assets/images/bg.jpg) no-repeat fixed center/cover;
+
+}
+
+h1 {
+color: royalblue;
+
+}
+
+td {
+mix-blend-mode: multiply;
+
+}
