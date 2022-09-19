@@ -12,7 +12,7 @@ nav{
     background-color : black;
 }
 
-nav li{ /
+nav li{ 
     display : inline;
     list-style : none;
 }
