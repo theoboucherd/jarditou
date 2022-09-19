@@ -12,7 +12,7 @@ nav{
     background-color : black;
 }
 
-nav li{ /* La fameuse cascade, ou héritage, ou jsp, pour que seuls les li issus de la nav soient traités ainsi, au cas où tu en rajoutes plus tard */
+nav li{ /
     display : inline;
     list-style : none;
 }
