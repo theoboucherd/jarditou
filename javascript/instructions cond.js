@@ -1,1 +1,1 @@
-var reponse1 = prompt("Entrez un nombre. ");
+var age = prompt("Entrez un nombre. ");
